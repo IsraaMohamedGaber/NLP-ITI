@@ -8,7 +8,7 @@ This repository contains an implementation and analysis of the Word2Vec models (
 📘 Overview
 The goal of this project is to learn high-quality vector representations (embeddings) of words from large text corpora. These embeddings capture meaningful syntactic and semantic relationships and can be used in various NLP tasks like classification, clustering, translation, and analogy solving.
 
-We implement and evaluate two architectures:
+We implement and evaluate two architectures in task of next day:
 
 Continuous Bag-of-Words (CBOW)
 
