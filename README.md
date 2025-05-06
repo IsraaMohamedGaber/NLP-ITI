@@ -1,5 +1,18 @@
 # NLP-ITI
 NLP ITI Tasks Day by Day
+# Day 1
+Efficient Estimation of Word Representations in Vector Space
+This repository contains an implementation and analysis of the Word2Vec models (Skip-Gram and CBOW) introduced by Tomas Mikolov et al. in their 2013 paper, "Efficient Estimation of Word Representations in Vector Space".
+
+📘 Overview
+The goal of this project is to learn high-quality vector representations (embeddings) of words from large text corpora. These embeddings capture meaningful syntactic and semantic relationships and can be used in various NLP tasks like classification, clustering, translation, and analogy solving.
+
+We implement and evaluate two architectures:
+
+Continuous Bag-of-Words (CBOW)
+
+Skip-Gram
+
 # Day 2
 # Word Embedding Prediction using Gensim
 
