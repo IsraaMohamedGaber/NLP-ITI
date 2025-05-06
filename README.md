@@ -1,7 +1,8 @@
 # NLP-ITI
 NLP ITI Tasks Day by Day
 # Day 1
-Efficient Estimation of Word Representations in Vector Space
+# 🌐 Efficient Estimation of Word Representations in Vector Space
+
 This repository contains an implementation and analysis of the Word2Vec models (Skip-Gram and CBOW) introduced by Tomas Mikolov et al. in their 2013 paper, "Efficient Estimation of Word Representations in Vector Space".
 
 📘 Overview
