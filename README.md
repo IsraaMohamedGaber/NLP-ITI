@@ -32,7 +32,7 @@ We use the `glove-wiki-gigaword-100` model (100-dimensional GloVe vectors traine
 - [Gensim](https://radimrehurek.com/gensim/)
   
 ---
-# Named Entity Recognition (NER) with spaCy
+# Named Entity Recognition (NER) with spaCy using sample Data
 
 This project demonstrates how to build a custom Named Entity Recognition (NER) model using spaCy. It uses a small dataset of labeled entities like organizations, people, and locations.
 
@@ -42,3 +42,22 @@ how to build ner model ?
 3. what is the shape of the dataset i need to make it work with spacy
 4. build training pipeline
 5. evaluate
+
+---
+# 🧠 Named Entity Recognition with spaCy & CoNLL2003
+
+This project demonstrates how to train a **custom Named Entity Recognition (NER)** model using the **CoNLL2003** dataset and the **spaCy** NLP library. The CoNLL2003 dataset is a standard benchmark used in NLP to detect named entities like persons, organizations, locations, and more.
+
+---
+
+## 📌 Project Features
+
+- Loads the [CoNLL2003](https://huggingface.co/datasets/conll2003) dataset automatically using the Hugging Face `datasets` library.
+- Converts word-level tags into spaCy's required character-based annotation format.
+- Trains a spaCy blank English model (`spacy.blank("en")`) from scratch.
+- Evaluates the model performance on the validation set.
+- Saves the trained model to disk for reuse.
+
+---
+
+
