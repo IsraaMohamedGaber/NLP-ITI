@@ -30,9 +30,17 @@ We use the `glove-wiki-gigaword-100` model (100-dimensional GloVe vectors traine
 
 - Python 3.x
 - [Gensim](https://radimrehurek.com/gensim/)
-- NumPy
+  
+---
+# Named Entity Recognition (NER) with spaCy
 
-Install dependencies using:
+This project demonstrates how to build a custom Named Entity Recognition (NER) model using spaCy. It uses a small dataset of labeled entities like organizations, people, and locations.
 
-```bash
-pip install gensim numpy
+---
+
+how to build ner model ?
+1. dataset
+2. framework that supports building ner models -> spacy
+3. what is the shape of the dataset i need to make it work with spacy
+4. build training pipeline
+5. evaluate
