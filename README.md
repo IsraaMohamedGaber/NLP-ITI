@@ -36,8 +36,6 @@ We use the `glove-wiki-gigaword-100` model (100-dimensional GloVe vectors traine
 
 This project demonstrates how to build a custom Named Entity Recognition (NER) model using spaCy. It uses a small dataset of labeled entities like organizations, people, and locations.
 
----
-
 how to build ner model ?
 1. dataset
 2. framework that supports building ner models -> spacy
