@@ -61,7 +61,7 @@ This project demonstrates how to train a **custom Named Entity Recognition (NER)
 ---
 
 # Day 5
-# # ROUGE-N Evaluation Metric (ROUGE-1)
+# ROUGE-N Evaluation Metric (ROUGE-1)
 
 ## 📌 Overview
 
