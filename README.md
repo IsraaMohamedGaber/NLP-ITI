@@ -60,4 +60,29 @@ This project demonstrates how to train a **custom Named Entity Recognition (NER)
 
 ---
 
+# Day 5
+# # ROUGE-N Evaluation Metric (ROUGE-1)
+
+## 📌 Overview
+
+This project explains and demonstrates the use of **ROUGE-N**, a recall-based evaluation metric in **Natural Language Processing (NLP)**. ROUGE-N measures the overlap of n-grams between a candidate (generated) text and one or more human-written reference texts.
+
+This README focuses on **ROUGE-1**, which evaluates **unigram (single word)** overlap and is commonly used for:
+
+- Text summarization
+- Machine translation
+- Text generation
+- Content comparison in NLP tasks
+
+---
+
+## 🧠 What is ROUGE-1?
+
+**ROUGE-1** is a specific case of the ROUGE-N family where `N = 1`, meaning it looks at individual word matches (unigrams) between the reference and candidate text.
+
+It is **recall-oriented**, meaning it evaluates how much of the reference content appears in the candidate output.
+
+---
+
+
 
