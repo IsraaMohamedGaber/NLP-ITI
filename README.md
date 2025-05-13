@@ -121,10 +121,8 @@ To empirically compare:
 
 - ✅ Traditional RNNs with **tanh** activation  
 - ✅ **LSTM** units  
-- ✅ **GRU** units  
-
-...on real-world sequence data.
-
+- ✅ **GRU** units
+- 
 ---
 
  
