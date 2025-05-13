@@ -122,8 +122,31 @@ To empirically compare:
 - ✅ Traditional RNNs with **tanh** activation  
 - ✅ **LSTM** units  
 - ✅ **GRU** units
-- 
 ---
+
+# 🧠 Neural Machine Translation with Attention Mechanism
+
+This project is based on the landmark paper:  
+**"Neural Machine Translation by Jointly Learning to Align and Translate"**  
+by Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio (2014).  
+[View the Paper on arXiv](https://arxiv.org/abs/1409.0473)
+
+---
+
+## 📌 Objective
+
+To implement and understand how an attention-based sequence-to-sequence model improves machine translation compared to traditional encoder-decoder models.
+
+---
+
+## 🔍 Core Concept
+
+Traditional encoder-decoder NMT compresses an entire source sentence into a single fixed-length vector, limiting its effectiveness for long sentences.
+
+**This paper introduced an attention mechanism** that allows the decoder to selectively focus on different parts of the input sentence while generating each word, improving translation accuracy and interpretability.
+
+--- 
+
 
  
 
