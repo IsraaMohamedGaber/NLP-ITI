@@ -84,5 +84,24 @@ It is **recall-oriented**, meaning it evaluates how much of the reference conten
 
 ---
 
+# Attention-Based Neural Machine Translation
+
+## 📘 Overview
+
+This project demonstrates the concept of **Attention Mechanisms** in **Neural Machine Translation (NMT)**, based on the influential paper  
+**"Effective Approaches to Attention-based Neural Machine Translation"** by Luong, Pham, and Manning (2015).
+
+The attention mechanism allows the model to focus on relevant parts of the input sentence while generating each word in the output, significantly improving translation quality—especially for long sentences.
+
+---
+
+## 🔍 What Is Attention in NMT?
+
+Traditional encoder-decoder models compress the entire source sentence into a single fixed-length vector. This becomes a bottleneck, particularly with longer or more complex sentences.
+
+**Attention** solves this by giving the decoder access to all encoder hidden states and learning to "attend" to the most relevant ones at each decoding step.
+
+---
+
 
 
