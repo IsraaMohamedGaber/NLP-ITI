@@ -103,5 +103,30 @@ Traditional encoder-decoder models compress the entire source sentence into a si
 
 ---
 
+# Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling
+
+## 📘 Overview
+
+This project explores and demonstrates the findings from the paper  
+**"Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling"**  
+by Junyoung Chung, Caglar Gulcehre, KyungHyun Cho, and Yoshua Bengio (2014).
+
+The paper compares the performance of different Recurrent Neural Network (RNN) architectures—particularly **Gated Recurrent Units (GRUs)** and **Long Short-Term Memory (LSTM)** units—on sequence modeling tasks such as music and speech signal modeling.
+
+---
+
+## 🔍 Objective
+
+To empirically compare:
+
+- ✅ Traditional RNNs with **tanh** activation  
+- ✅ **LSTM** units  
+- ✅ **GRU** units  
+
+...on real-world sequence data.
+
+---
+
+ 
 
 
