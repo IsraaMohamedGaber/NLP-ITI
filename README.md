@@ -147,6 +147,10 @@ Traditional encoder-decoder NMT compresses an entire source sentence into a sing
 
 --- 
 
+# Day 6
+
+---
+
 # Day 7
 # BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
