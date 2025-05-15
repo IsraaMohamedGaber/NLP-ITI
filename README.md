@@ -147,6 +147,32 @@ Traditional encoder-decoder NMT compresses an entire source sentence into a sing
 
 --- 
 
+# Day 7
+# BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+This project is an educational implementation and exploration of the paper:
+**"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"** by Jacob Devlin et al., from Google AI Language.
+
+## 🔍 Objective
+
+The goal is to understand and demonstrate how BERT works through:
+- Pre-training techniques (Masked Language Modeling and Next Sentence Prediction)
+- Fine-tuning BERT on downstream NLP tasks (e.g. sentiment analysis, question answering)
+
+---
+
+## 📄 Paper Summary
+
+BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based model that reads text in both directions to understand context better. It was pre-trained on large corpora using:
+- **Masked Language Modeling (MLM)** – predicting randomly masked words in a sentence
+- **Next Sentence Prediction (NSP)** – determining if one sentence logically follows another
+
+BERT set a new state-of-the-art performance on many NLP benchmarks.
+
+---
+
+
+
 
  
 
