@@ -148,6 +148,39 @@ Traditional encoder-decoder NMT compresses an entire source sentence into a sing
 --- 
 
 # Day 6
+# Attention Is All You Need - Transformer Implementation
+
+This project is a simplified implementation and study of the paper:  
+**"Attention Is All You Need"** by Vaswani et al. (2017), which introduced the **Transformer** — a revolutionary model in the field of natural language processing.
+
+---
+
+## 🎯 Objective
+
+To understand and implement the **Transformer architecture** for sequence-to-sequence tasks like machine translation, without using any RNNs or CNNs — relying entirely on **attention mechanisms**.
+
+---
+
+## 📄 Paper Summary
+
+- Introduced the **Transformer model**, which uses **self-attention** instead of recurrence to process sequences.
+- Key innovation: Words in a sequence can attend to **all other words** at once, enabling better contextual understanding and faster training.
+- Architecture uses:
+  - **Self-Attention**
+  - **Multi-Head Attention**
+  - **Positional Encoding**
+  - **Feedforward Networks**
+  - **Encoder-Decoder Structure**
+- The model achieved state-of-the-art results on translation benchmarks and became the foundation for BERT, GPT, T5, and more.
+
+---
+
+## 🧠 Key Concepts
+
+- **Self-Attention**: Helps the model focus on relevant words when processing a sentence.
+- **Multi-Head Attention**: Lets the model attend to different types of relationships in the text.
+- **Positional Encoding**: Adds information about word order.
+- **Parallel Processing**: Unlike RNNs, the Transformer processes all words at once, making training faster.
 
 ---
 
